@@ -29,9 +29,8 @@ In the Age and Gender Prediction Model the proposed problem is a classification 
 3.	Age Prediction
 
 Novelty :-
-
-	In the project we have used Deep Neural Network Face Detector in OpenCV. It is based on Single-Shot-Multibox detector and uses ResNet-10 Architecture as backbone. The model was trained using images available from the web. 
-In this, the image is converted to a blob and passed through the network using the forward() function. The output detections is a 4-D matrix, where the 3rd dimension iterates over the detected faces. The fourth dimension contains information about the bounding box and score for each face. For example, detections [0,0,0,2] gives the confidence score for the first face, and detections [0,0,0,3:6] give the bounding box.
+	We have used Deep Neural Network Face Detector in OpenCV. It is based on Single-Shot-Multibox detector and uses ResNet-10 Architecture as backbone. The model was trained using images available from the web.
+	In this project, the image is converted to a blob and passed through the network using the forward() function. The output detections is a 4-D matrix, where the 3rd dimension iterates over the detected faces. The fourth dimension contains information about the bounding box and score for each face. For example, detections [0,0,0,2] gives the confidence score for the first face, and detections [0,0,0,3:6] give the bounding box.
 The output coordinates of the bounding box are normalized between [0,1]. Thus the coordinates should be multiplied by the height and width of the original image to get the correct bounding box on the image.
 Advantages of using DNN Face Detection over Haar Cascades:-
 1.	Works for different face orientations – up, down, left, right, side-face etc.
