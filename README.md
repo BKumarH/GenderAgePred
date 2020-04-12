@@ -22,7 +22,7 @@ Predict the gender and age of a given image where the age is a classification pr
 
 Proposed Method :- 
 
-In the Age and Gender Prediction Model the proposed problem is a classification problem as age and gender prediction becomes hard when the person in the image is having makeup or has altered his normal look. The age and gender model is using Pretrained Convolutional Neural Network which is trained on Adience Dataset.
+In the Age and Gender Prediction Model the proposed problem is a classification problem as age and gender prediction becomes hard when the person in the image is having makeup or has altered his normal look by less illumination or odd camera angle leading to distorted image. The age and gender model is using Pretrained Convolutional Neural Network which is trained on Adience Dataset.
 	The project has 3 Phases in all. These are :-
 1.	Face Detection 
 2.	Gender Prediction
