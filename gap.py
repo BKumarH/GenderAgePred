@@ -1,7 +1,9 @@
+#Import packages
 import cv2
-#import math
 import argparse
 
+
+#Function to use deep neural network face detector
 def highlightFace(net, frame, conf_threshold=0.7):
     frameOpencvDnn=frame.copy()
     frameHeight=frameOpencvDnn.shape[0]
